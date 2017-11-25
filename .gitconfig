@@ -1,0 +1,22 @@
+[user]
+	name = flame239
+	email = kirill.andreev.239@gmail.com
+[color]
+	ui = true
+[push]
+	default = simple
+[core]
+	editor = vim
+	pager = less -F -X
+[alias]
+	s = status
+	b = branch
+	sb = status -sb
+	co = checkout
+	ca = commit -am
+	pr = pull --rebase
+	it = !git init && git commit -m “root” --allow-empty
+	l = log --pretty=format:'%Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=relative
+	
+[diff]
+	tool = meld
